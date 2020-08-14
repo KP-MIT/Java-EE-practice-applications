@@ -46,13 +46,15 @@
 					
                     <!-- Start of the input field code -->
                     
-                    
+                    <!-- Creating table row for the class 'streetAddress' -->
                     <tr class="#{!streetAddress.valid ? 'has-error' : 'none'}">
                         <td>
-                            <h:outputLabel value="streetAddress" for="streetAddress" />
+                            <h:outputLabel value="streetAddress" for="streetAddress" /> <!-- output label of table heading -->
                         </td>
                         <td>
-                            <h:inputText id="streetAddress" value="#{property.streetAddress}" title="streetAddress" required="true" requiredMessage="Please enter the street address!" pt:placeholder="Dandenong Rd"> 
+                        <!-- input text block with 'Dandenong Rd' as blank placeholder. Required is enabled and required message has been set. -->
+                            <h:inputText id="streetAddress" value="#{property.streetAddress}" title="streetAddress" required="true" 
+                            requiredMessage="Please enter the street address!" pt:placeholder="Dandenong Rd"> 
 							</h:inputText>
                             <br/>
                             <h:message for="streetAddress" class="#{!streetAddress.valid ? 'label label-warning' : 'none'}" />
@@ -109,12 +111,19 @@
 					-->
 					
                     <!-- Start of the input field code -->
+                    
+                    <!-- Creating table row for the class 'streetAddress' -->
                     <tr class="#{!size.valid ? 'has-error' : 'none'}">
                         <td>
-                            <h:outputLabel value="size" for="size" />
+                            <h:outputLabel value="size" for="size" /> <!-- output label of table heading -->
                         </td>
                         <td>
-                            <h:inputText id="size" value="#{property.size}" title="size" required="true" requiredMessage="Please enter the size!" validatorMessage="Please enter a size equal to or greater than 1." converterMessage="Please enter a positive number" pt:placeholder="530000.59">
+                        <!-- input text block with 'Dandenong Rd' as blank placeholder. Required is enabled and required message, validator
+                         message, converter message have been set. -->
+                            <h:inputText id="size" value="#{property.size}" title="size" required="true" 
+                            requiredMessage="Please enter the size!" validatorMessage="Please enter a size equal to or greater than 1." 
+                            converterMessage="Please enter a positive number" pt:placeholder="530000.59">
+                            	<!-- Validation for minimum 1 and only integer added. -->
 								<f:convertNumber integerOnly="true"/>
 								<f:validateLongRange minimum="1"/> 
 							</h:inputText>
