@@ -23,7 +23,7 @@ public class Property {
 
     public Property(int id, String address, int numberOfBedrooms, int size, double price) {
     	super();
-    	this.id = 0;
+    	this.id = id;
         this.address = address;
         this.numberOfBedrooms = numberOfBedrooms;
         this.size = size;
@@ -72,6 +72,16 @@ public class Property {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
+
+
+	@Override
+	public String toString() {
+		return "Property id=" + id + ", address=" + address + ", numberOfBedrooms=" + numberOfBedrooms + ", size="
+				+ size + ", price=" + price;
+	}
+	
+	
     
     }
     
