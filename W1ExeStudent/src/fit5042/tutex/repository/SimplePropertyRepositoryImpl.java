@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class SimplePropertyRepositoryImpl implements PropertyRepository {
 
-    private final List<Property> propertyList;
+    private ArrayList<Property> propertyList;
 
     public SimplePropertyRepositoryImpl() {
         this.propertyList = new ArrayList<>();
@@ -27,16 +27,18 @@ public class SimplePropertyRepositoryImpl implements PropertyRepository {
     
     @Override
     public void addProperty(Property property) throws Exception {
-        if ((!propertyList.contains(property)) && searchPropertyById(property.getPropertyID()) == null)
-            this.propertyList.add(property);
+        if (property != null)
+        {
+        	propertyList.add(property);
+        }
         else
-            System.out.println("This property already exists.");
+            System.out.println("This property is not valid.");
     }
 
     @Override
     public Property searchPropertyById(int id) throws Exception {
         for (Property property : propertyList) {
-            if (property.getPropertyID() == id)
+            if (property.getId() == id)
                 return property;
         }
         return null;
@@ -44,11 +46,7 @@ public class SimplePropertyRepositoryImpl implements PropertyRepository {
 
     @Override
     public List<Property> getAllProperties() throws Exception {
-        List<Property> properties = new ArrayList<>(this.propertyList.size());
-        for (Property property : this.propertyList) {
-            properties.add(property);
-        }
-        return properties;
+        return propertyList;
     }
     
 }
