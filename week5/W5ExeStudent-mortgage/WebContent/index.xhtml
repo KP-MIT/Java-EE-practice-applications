@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head>
+ <title>Week 5 Webservice Tutorial</title>
+</h:head>
+<h:body>
+ <h1>Mortgage Calculator</h1>
+ <f:view>
+ <h:form>
+ <p>Principle: <h:message for="principle" /></p>
+ <h:inputText id="principle" label="Principle" size="32" value="#{webServiceBean.principle}" required="true"
+requiredMessage="You must enter principle!"></h:inputText>
+<p>Rate of Interest: <h:message for="interest" /></p>
+<h:inputText id="interest" label="Interest" size="32" value="#{webServiceBean.interest}" required="true"
+requiredMessage="You must enter rate of interest!"></h:inputText>
+<p>Number of Years: <h:message for="years" /></p>
+<h:inputText id="years" label="Years" size="32" value="#{webServiceBean.year}" required="true"
+requiredMessage="You must enter rate of interest!"></h:inputText>
+
+ <h:commandButton id="submit" value="Submit" action="#{webServiceBean.setWebServiceClient}" />
+
+ </h:form>
+ </f:view>
+ <p>View The <a href="webresources/mortgage">Mortgage </a></p>
+</h:body>
+ 
+</html>
