@@ -3,10 +3,6 @@
 <div id="top"></div>
 
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -14,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/KP-MIT/Java-EE-practice-applications">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -23,14 +19,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/KP-MIT/Java-EE-practice-applications"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/KP-MIT/Java-EE-practice-applications">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/KP-MIT/Java-EE-practice-applications">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/KP-MIT/Java-EE-practice-applications">Request Feature</a>
   </p>
 </div>
 
