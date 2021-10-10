@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Java Enterprise Application][product-screenshot]]
+[![Product Name Java Enterprise Application][product-java-ee-1]]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
