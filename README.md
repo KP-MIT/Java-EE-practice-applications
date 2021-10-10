@@ -2,7 +2,6 @@
 
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -14,58 +13,26 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center"> Java Eneterprise Edition Exercises </h3>
 
   <p align="center">
-    project_description
+    Sample Java EE Apps using Eclipse IDE.
     <br />
-    <a href="https://github.com/KP-MIT/Java-EE-practice-applications"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/KP-MIT/Java-EE-practice-applications"><strong> Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/KP-MIT/Java-EE-practice-applications">View Demo</a>
+    <a href="https://github.com/KP-MIT/Java-EE-practice-applications"> View Demo </a>
     ·
-    <a href="https://github.com/KP-MIT/Java-EE-practice-applications">Report Bug</a>
+    <a href="https://github.com/KP-MIT/Java-EE-practice-applications"> Report Bug </a>
     ·
-    <a href="https://github.com/KP-MIT/Java-EE-practice-applications">Request Feature</a>
+    <a href="https://github.com/KP-MIT/Java-EE-practice-applications"> Request Feature </a>
   </p>
 </div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+[![Product Name java-ee-1][product-java-ee-1]]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -73,13 +40,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
+* [Java](https://vuejs.org/)
+* [Java EE](https://vuejs.org/)
+* [JAAS](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -139,7 +102,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [] Feature 3
     - [] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/KP-MIT/Java-EE-practice-applications) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -195,5 +158,5 @@ Project Link: [https://github.com/KP-MIT/Java-EE-practice-applications](https://
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/developer-kartik-pathak/
 [product-screenshot]: images/screenshot.png
